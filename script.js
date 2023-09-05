@@ -22,7 +22,7 @@ const calculateTemp = () => {
     }
 
     else{
-        document.getElementById("result").innerHTML = fahToCal(inputTempElement) + "&#176; Celsius";
+        document.getElementById("result").innerHTML ="-->  " + fahToCal(inputTempElement) + "&#176; Celsius" + "  <--" ;
     }
 
 }
